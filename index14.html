@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOMEWORK</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style14.css">
+</head>
+<body>
+	<header>
+		<nav class="navigaiton desk">
+			<a href="" class="bootstrap">
+				Start Bootstrap
+			</a>
+			<a href="">Services</a>
+			<a href="">Portfolio</a>
+			<a href="">About</a>
+			<a href="">Team</a>
+			<a href="">Contact</a>
+		</nav>
+	</div>
+		<nav class="mobile">
+			<a href="">
+				
+			</a>
+			<a id="hamburger">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</a>
+			<div id="navbar-collapse" class="hide">
+				<a href="" class="bootstrap">
+				Start_Bootstrap
+			</a>
+			<a href="">Services</a>
+			<a href="">Portfolio</a>
+			<a href="">About</a>
+			<a href="">Team</a>
+			<a href="">Contact</a>
+
+			
+		</nav>
+		<div class="introtext">
+		<h3>Welcome to our studio</h3>
+
+		<h1>IT'S NICE TO MEET YOU</h1>
+
+		<button>TELL ME MORE</button>
+		</div>
+	</header>
+	
+	<section class="services">
+	<div class="titlesof2">
+		<h1 class="T555">Services</h1>
+		<h5 class="untext">Lorem ipsum dolor sit amet, consectetur.</h5>
+	</div>
+	<div class="E-Commerse">
+		<i class="fa-fa-shopping-cart" aria-hidden="true"></i>
+		<h3>E-Commerse</h3>
+		<p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum praesentium eligendi atque voluptatibus at dolor soluta doloremque velit assumenda unde.</p>
+	</div>
+	<div class="Design">
+		<h3>Responsive Design</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consectetur eveniet distinctio, sunt dolor quaerat voluptate qui mollitia magni Lorem ipsum dolor. Lorem.</p>
+	</div>
+	<div class="Security">
+		<h3>Web Security</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consectetur eveniet distinctio, sunt dolor quaerat voluptate qui mollitia magni Lorem ipsum dolor. Lorem.</p>
+	</div>
+	</section>
+	<script type="text/javascript">
+	function changeClass()
+	{
+		if ( document.getElementById("navbar-collapse").className.match(/(?:^|\s)hide(?!\S)/) ){
+			document.getElementById("navbar-collapse").classList.remove("hide");
+		}else{
+			document.getElementById("navbar-collapse").className += " hide";
+		}
+
+		
+	}
+
+	window.onload = function()
+	{
+		document.getElementById("hamburger").addEventListener( 'click', changeClass);
+	}
+</script>
+</body>
+</html>
